@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch"
+  },
+  "devDependencies": {
+    "@opct/gui": "^0.0.6",
+    "@opct/mineos": "^0.0.2",
+    "@opct/openos": "^0.0.17",
+    "typescript-to-lua": "^0.40.0"
+  }
+}

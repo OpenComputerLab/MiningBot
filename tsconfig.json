@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "outDir": "dist",
+        "module": "commonjs",
+        "lib": ["esnext"],
+        "strict": true,
+        "moduleResolution": "node",
+        "rootDir": "src",
+        "types": [
+            "lua-types/jit",
+            "typescript-to-lua/language-extensions",
+            "@opct/openos",
+            "@opct/gui",
+            "@opct/mineos"
+        ]
+    },
+    "tstl": {
+        "luaTarget": "5.3",
+        "noHeader": true,
+        "noImplicitSelf": true
+    }
+}
